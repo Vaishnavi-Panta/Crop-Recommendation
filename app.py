@@ -76,4 +76,6 @@ def recommend():
         
     
     return render_template('crop.html', recommend_crop = recommend_crop)
-app.run()
+
+if __name__=="__main__":
+    app.run()
